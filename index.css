@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f8f5;
+    margin: 0;
+    color: #dbb9ec;
+}
+
+header {
+    background-color: #baacc9da;
+    color: rgb(77, 33, 91);
+    text-align: center;
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(198, 227, 218);
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #750d7a;
+    margin: 10px;
+    font-weight: bold;
+}
+
+main {
+    width: 85%;
+    margin: 20px auto;
+}
+
+.welcome {
+    background-color: #ebc1ef;
+    padding: 13%;
+    text-align: center;
+    border-radius: 12px;
+    height: 80px;
+    color: #750d7a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    background-color: rgb(144, 218, 248);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #4678a3;
+}
+
+.card h2 {
+    color: #aa3ea2;
+}
+
+input, textarea, select {
+    display: block;
+    width: 95%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #6f27b8;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #622294;
+}
+
+li {
+    margin: 12px 0;
+}
+
+footer {
+    background-color: #e2abe2;
+    color: rgb(104, 10, 120);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+}
+main h2 {
+    color: #6a1b65;
+}
+
+main p {
+    color: #555555;
+}
