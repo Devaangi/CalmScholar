@@ -71,9 +71,9 @@ Navigate between the pages using the navigation menu.
 
 No additional libraries or installations are required.
 
-💡 What I Learned
+💡 What We Learned
 
-While building this project, I practised:
+While building this project, we practised:
 
 Structuring web pages using HTML elements.
 
